@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.0*%
+%TF.CreationDate,2018-02-09T22:15:05Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Ofer Mazor <ofer@hms.harvard.edu>*%
+%TJ.B_ID,HarveyBehaviorPCB*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.534200*%
+%TJ.B_Size_X,203.200000*%
+%TJ.B_Size_Y,125.730000*%
+M02*
