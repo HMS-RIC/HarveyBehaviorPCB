@@ -1,0 +1,129 @@
+(footprint "AXIAL-0.5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1/2W Resistor, 0.5\" wide\n\nYageo CFR series http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pdf http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pdf")
+	(property "Reference" "REF**"
+		(at -4.445 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "031c8020-ac64-456d-91d9-1ef1980c4758")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "AXIAL-0.5"
+		(at -3.429 0.381 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5244e3ca-d0f9-4740-a98e-00bdc930adff")
+		(effects
+			(font
+				(size 0.69088 0.69088)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dd23c71-ec10-49c8-bf79-a6b691e107a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03d6319a-7a58-474a-8113-4d795e15b0ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b8f933b-8a99-4b8d-b751-f4f42fd19af2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4.5 -1.65)
+		(end 4.5 -1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3726f28-2b12-43d1-813c-5501597c138a")
+	)
+	(fp_line
+		(start -4.5 1.65)
+		(end -4.5 -1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db30096e-6394-4555-b674-34c02cf8ed7f")
+	)
+	(fp_line
+		(start 4.5 -1.65)
+		(end 4.5 1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5526ef0a-356d-4281-b986-64e8c2d25145")
+	)
+	(fp_line
+		(start 4.5 1.65)
+		(end -4.5 1.65)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32a023e2-aaa9-49ac-9ed4-c9c38bdd3ea0")
+	)
+	(pad "P$1" thru_hole circle
+		(at -6.35 0)
+		(size 1.8796 1.8796)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "1a55f269-d97e-4878-bc11-56b3995ee36d")
+	)
+	(pad "P$2" thru_hole circle
+		(at 6.35 0)
+		(size 1.8796 1.8796)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "c642e43f-b5ae-4b3a-a3df-3a0805bd14de")
+	)
+)

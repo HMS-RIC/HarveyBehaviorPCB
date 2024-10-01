@@ -1,0 +1,109 @@
+(footprint "CPOL-RADIAL-10UF-25V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.889 -1.524 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9a4b4b3-fe4a-4083-8721-17d0186f79ff")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CPOL-RADIAL-10UF-25V"
+		(at -1.905 3.683 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c070c7b0-c1a2-442c-8680-c8b6e4e3b02d")
+		(effects
+			(font
+				(size 0.747776 0.747776)
+				(thickness 0.065024)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b7010a3-3978-404e-ac14-e08711657629")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac70719d-2c96-46ff-b01c-ca17a6f3e573")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b6ddaa2-fc38-44ca-b59d-1a620d862b64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.762 -1.397)
+		(end -1.778 -1.397)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11aa4218-f176-4a1a-86b0-c3fe8cb00e88")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a7e81179-1e18-4a67-9f45-2047466c4b4f")
+	)
+	(pad "1" thru_hole rect
+		(at 1.27 0)
+		(size 1.651 1.651)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "b4e87ae3-c272-42e6-b770-0d37ec9ec8bd")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.651 1.651)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "ff111096-a27c-453b-9585-c5e8e5561ddc")
+	)
+)

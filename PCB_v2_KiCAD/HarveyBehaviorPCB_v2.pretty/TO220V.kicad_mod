@@ -1,0 +1,213 @@
+(footprint "TO220V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO 220 Vertical Package works with various parts including N-Channel MOSFET SparkFun SKU: COM-10213")
+	(property "Reference" "REF**"
+		(at -2.794 -3.429 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0bdeab50-d80b-494d-8511-cef4bf882084")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TO220V"
+		(at -3.302 3.302 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "201838af-2a7d-4792-8af1-d60929cbc490")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30360e61-6d69-4126-8eca-9a1dc2bf5b73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4913a08a-4c82-4bb1-96a7-32cee301ac11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94b243e7-6d96-4e77-a702-7db0519d6bac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.08 -3.048)
+		(end 5.08 -3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23d0bbd9-a750-49ab-8930-11cfda400956")
+	)
+	(fp_line
+		(start -5.08 -2.032)
+		(end -5.08 -3.048)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f4b8421-a1de-4814-8ad5-35bf26dfc4f1")
+	)
+	(fp_line
+		(start -5.08 -2.032)
+		(end -5.08 0.381)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21ee4985-57e2-4aa6-b38e-aca1de643010")
+	)
+	(fp_line
+		(start -4.191 1.27)
+		(end -3.81 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08e6117c-1881-4cb5-90d4-57859610da64")
+	)
+	(fp_line
+		(start 4.191 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef62554a-0c21-461e-8799-c9d2d9836b57")
+	)
+	(fp_line
+		(start 5.08 -3.048)
+		(end 5.08 -2.032)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "224ea574-f709-4bb0-a6ec-c5f79a71998a")
+	)
+	(fp_line
+		(start 5.08 -2.032)
+		(end -5.08 -2.032)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c1cf97b-614d-4efc-a163-2efa152c828a")
+	)
+	(fp_line
+		(start 5.08 -2.032)
+		(end 5.08 0.381)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "923ac72b-c738-440a-a674-31ccf2ab8fa6")
+	)
+	(fp_arc
+		(start -4.190998 1.27)
+		(mid -4.826009 1.016011)
+		(end -5.08 0.381)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91338cff-b48a-4452-bbb6-827e3a3ac121")
+	)
+	(fp_arc
+		(start 5.08 0.380998)
+		(mid 4.826011 1.016009)
+		(end 4.191 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5db07f00-a9c3-4c13-99ac-da267138fd15")
+	)
+	(fp_poly
+		(pts
+			(xy -5.08 -2.032) (xy 5.08 -2.032) (xy 5.08 -3.048) (xy -5.08 -3.048)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "05d06050-91c3-4aa2-87b9-401f2195f3ea")
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0 90)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "04f71f54-10ea-4efb-8ab5-6ca1965a6d81")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0 90)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "bd6bfe23-c053-495d-b32e-32ed2542b7ae")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0 90)
+		(size 3.048 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(thermal_bridge_angle 0)
+		(uuid "fc074f7e-a071-4fb2-87e7-72cbc186f6ee")
+	)
+)
