@@ -20395,7 +20395,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Lick and Photodiode circuits"
+	(gr_text "Lick and photodiode circuits"
 		(at 140.716 68.326 0)
 		(layer "F.SilkS")
 		(uuid "18cfea91-4606-4422-bb8c-ec45a22cda40")
@@ -20659,7 +20659,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "User 3/4 Voltage-limiting circuit"
+	(gr_text "User 3/4 voltage-limiting circuit"
 		(at 48.26 62.738 0)
 		(layer "F.SilkS")
 		(uuid "6f24e28a-1028-4d9d-972a-7defbc674cd8")
@@ -20755,7 +20755,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LP Filters for Vel Y/R/P"
+	(gr_text "LP filters for Vel-Y/R/P"
 		(at 83.566 129.286 90)
 		(layer "F.SilkS")
 		(uuid "85fd25b2-0f90-401b-b2ed-84c2cdda1d85")
