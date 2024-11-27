@@ -18,3 +18,8 @@ The full fabrication design is included in the [Gerber Zip File](PCB_v2_KiCAD/Ge
 
 ## Assembly
 The [Bill of Materials](HarveyBehaviorPCB_v2_BOM.xlsx?raw=true) (BOM) file has the full list of components. Everything but the optional I2C connector is a through-hole part and can be soldered on with a simple soldering iron (and [proper technique](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)). The board is divided up into labeled regions that decribe their high-level funtion and allow you to populate only the subset of components that you plan to use:
+- *Valve driver circuit*, *Lick and photodide circuits*: These are optional functionalities. Only populate these regios if you plan to use them.
+- *LP filters for volocity signals*: These are not optional. They low-pass filter the Teensy's digital (PWM) output to form a smooth analog signal for the NI board to aquire.
+- *User 3/4 voltage-limiting circuit*: This is necessary if you plan to use the NI board's analog output pins (_AO-0_, _AO-1_) to control the voltage on _User-3_ and _User-4_. This circuit protects the Teensy from an accidental +5V output from the NI board (since the Teensy 4.0 cannot handle >3.3V inputs).
+- *Jumpers JP2, JP3*: Optional. Short these jumpers (i.e., connect the pins within each jumper) to enable the NI analog output (_AO-0/1_, a.k.a. _User-3/4_) to control the valves.
+- *Jumpers JP4, JP5*: Optional. In their default state they enable the I2C connector and disable the _MOT1_/_MOT2_ connections to the ball sensors. The _MOTx_ lines are not used during typical operation, so these jumpers are unlikely to be used.
