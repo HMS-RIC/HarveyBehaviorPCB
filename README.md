@@ -14,6 +14,7 @@ Other optional features of the PCB are:
 ![3D PCB model](HarveyBehaviorPCB_v2_3DModel.jpg)
 
 ## Fabrication
-The full fabrication design is included in the [Gerber Zip File](https://github.com/HMS-RIC/HarveyBehaviorPCB/blob/master/PCB_v2_KiCAD/Gerbers/HarveyBehaviorPCB_v2.zip). You can upload this file to any PCB fabrictor to get a quote and place an order. (The board does not have any special features, so the default settings for PCB manufacture are probably fine.) One a relatively low-cost option for a board this size is the $33/board (3 board minimum) special at [Advanced Circuits](https://www.advancedpcb.com/en-us/33-each-special/).
+The full fabrication design is included in the [Gerber Zip File](PCB_v2_KiCAD/Gerbers/HarveyBehaviorPCB_v2.zip?raw=true). You can upload this file to any PCB fabrictor to get a quote and place an order. (The board does not have any special features, so the default settings for PCB manufacture are probably fine.) One a relatively low-cost option for a board this size is the $33/board (3 board minimum) special at [Advanced Circuits](https://www.advancedpcb.com/en-us/33-each-special/).
 
 ## Assembly
+The [Bill of Materials](HarveyBehaviorPCB_v2_BOM.xlsx?raw=true) (BOM) file has the full list of components. Everything but the optional I2C connector is a through-hole part and can be soldered on with a simple soldering iron (and [proper technique](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)). The board is divided up into labeled regions that decribe their high-level funtion and allow you to populate only the subset of components that you plan to use:
