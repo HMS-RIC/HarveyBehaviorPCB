@@ -12,6 +12,7 @@ Other optional features of the PCB are:
 - Many expansion ports/connectors: BNC connections, 0.1" headers, and a serial I2C connection (Qwiic connector)
 
 ![3D PCB model](HarveyBehaviorPCB_v2_3DModel.jpg)
+![Populated PCB](PCB_v2_KiCAD/img/BehaviorPCB_v2_populated.jpg)
 
 ## Fabrication
 The full fabrication design is included in the [Gerber Zip File](PCB_v2_KiCAD/Gerbers/HarveyBehaviorPCB_v2.zip?raw=true). You can upload this file to any PCB fabrictor to get a quote and place an order. (The board does not have any special features, so the default settings for PCB manufacture are probably fine.) One a relatively low-cost option for a board this size is the $33/board (3 board minimum) special at [Advanced Circuits](https://www.advancedpcb.com/en-us/33-each-special/).
